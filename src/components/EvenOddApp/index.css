@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bgContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.innerContainer {
+  background-image: linear-gradient(to bottom, #ff637f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+}
+
+.countText {
+  color: #0f172a;
+}
+
+.evenOrOddText {
+  color: #334155;
+}
+
+.disclaimer {
+  color: #334155;
+}
+
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+button:hover {
+  border: 1px solid #1e293b;
+  outline: 1px solid #ffffff;
+  border-radius: 0px;
+}
